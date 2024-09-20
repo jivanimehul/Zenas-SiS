@@ -16,7 +16,7 @@ cnx = st.connection("snowflake")
 #pd_colors = table_colors.to_pandas();
 
 ##Oyt the list of colors into a drop list selector
-#option = st.selectbox('Pick a sweatsuit color or style:',pd_colors)
+option = st.selectbox('Pick a sweatsuit color or style:',pd_colors)
 
 ##We'll build the image caption now, since we can
 #product_caption = 'Our warm, comfortable, ' + option +' sweatsuit!'
